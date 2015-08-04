@@ -15,6 +15,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linq", "Linq", "{53CC2C4F-FCA6-41F0-9AF5-D6C3AF55F66F}"
 	ProjectSection(SolutionItems) = preProject
 		System\Data\Linq\List.js = System\Data\Linq\List.js
+		System\Data\Linq\List.min.js = System\Data\Linq\List.min.js
 	EndProjectSection
 EndProject
 Global
