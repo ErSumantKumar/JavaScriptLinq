@@ -8,8 +8,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		index.html = index.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System", "System", "{2818A7BC-828C-4699-9F20-25395FAC0F2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{78A16485-A3BC-45A4-8910-8B13482CD032}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linq", "Linq", "{53CC2C4F-FCA6-41F0-9AF5-D6C3AF55F66F}"
+	ProjectSection(SolutionItems) = preProject
+		System\Data\Linq\List.js = System\Data\Linq\List.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2818A7BC-828C-4699-9F20-25395FAC0F2F} = {EC944BB4-BB2A-4976-840B-45AEE01F955A}
+		{78A16485-A3BC-45A4-8910-8B13482CD032} = {2818A7BC-828C-4699-9F20-25395FAC0F2F}
+		{53CC2C4F-FCA6-41F0-9AF5-D6C3AF55F66F} = {78A16485-A3BC-45A4-8910-8B13482CD032}
 	EndGlobalSection
 EndGlobal
