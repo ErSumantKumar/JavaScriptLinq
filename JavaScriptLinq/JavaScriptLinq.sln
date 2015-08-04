@@ -12,10 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System", "System", "{2818A7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{78A16485-A3BC-45A4-8910-8B13482CD032}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linq", "Linq", "{53CC2C4F-FCA6-41F0-9AF5-D6C3AF55F66F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collections", "Collections", "{FF62B8D2-6C8F-427C-957A-760C15D58097}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generic", "Generic", "{1BAC03EC-9D8C-4B00-A2A7-4BB08D4AC623}"
 	ProjectSection(SolutionItems) = preProject
-		System\Data\Linq\List.js = System\Data\Linq\List.js
-		System\Data\Linq\List.min.js = System\Data\Linq\List.min.js
+		System\Collections\Generic\List.js = System\Collections\Generic\List.js
+		System\Collections\Generic\List.min.js = System\Collections\Generic\List.min.js
 	EndProjectSection
 EndProject
 Global
@@ -25,6 +27,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2818A7BC-828C-4699-9F20-25395FAC0F2F} = {EC944BB4-BB2A-4976-840B-45AEE01F955A}
 		{78A16485-A3BC-45A4-8910-8B13482CD032} = {2818A7BC-828C-4699-9F20-25395FAC0F2F}
-		{53CC2C4F-FCA6-41F0-9AF5-D6C3AF55F66F} = {78A16485-A3BC-45A4-8910-8B13482CD032}
+		{FF62B8D2-6C8F-427C-957A-760C15D58097} = {2818A7BC-828C-4699-9F20-25395FAC0F2F}
+		{1BAC03EC-9D8C-4B00-A2A7-4BB08D4AC623} = {FF62B8D2-6C8F-427C-957A-760C15D58097}
 	EndGlobalSection
 EndGlobal
