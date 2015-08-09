@@ -8,6 +8,11 @@ var System;
                     this.array = array;
                     Object.defineProperty(this, "array", { value: array, writable: false });
 
+                    this.Add = function (item) {
+                        _this.array.push(item);
+                        return _this.array.ToList();
+                    };
+
                     this.Aggregate = function (Func, seed) {
                         var a;
                         var current;
@@ -372,6 +377,12 @@ var System;
                             return comparer(KeyFunc(l), KeyFunc(r));
                         });
                         return _this;
+                    };
+
+                    this.RemoveAll = function (Func) {
+                        return _this.array.ToList().Where(function (x) {
+                            return !Func(x);
+                        });
                     };
 
                     this.Reverse = function () {
